@@ -1,17 +1,17 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - FPSCounter
-    - GamePlay
+    - Achievment
+    - Grab
     - Soundeffect
     - UnityChan.UnityChanControlScriptWithRgidBody
     - Water
     - beginning
     - beginning2
     - cameracontroller
+    - collected
     - function
     - mainmenu
-    - pickup
     - vThirdPersonCamera
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
@@ -58,6 +58,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
     - Class: 91
@@ -83,6 +87,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9734}
     - Class: 114
+      Script: {instanceID: 9756}
+    - Class: 114
       Script: {instanceID: 9770}
     - Class: 114
       Script: {instanceID: 9772}
@@ -91,21 +97,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10192}
     - Class: 114
-      Script: {instanceID: 10376}
+      Script: {instanceID: 10472}
     - Class: 114
-      Script: {instanceID: 10470}
+      Script: {instanceID: 10560}
     - Class: 114
-      Script: {instanceID: 10648}
+      Script: {instanceID: 10652}
     - Class: 114
-      Script: {instanceID: 10756}
+      Script: {instanceID: 10760}
     - Class: 114
-      Script: {instanceID: 10880}
+      Script: {instanceID: 10888}
     - Class: 114
-      Script: {instanceID: 10884}
+      Script: {instanceID: 11098}
     - Class: 114
-      Script: {instanceID: 11226}
+      Script: {instanceID: 11222}
     - Class: 114
-      Script: {instanceID: 11310}
+      Script: {instanceID: 11234}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -190,9 +196,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10192}
     - Class: 114
-      Script: {instanceID: 10470}
+      Script: {instanceID: 10472}
     - Class: 114
-      Script: {instanceID: 10568}
+      Script: {instanceID: 10572}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1282,7 +1288,7 @@ ScriptsOnlyBuild:
     className: CameraController
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: a04e716c8d0c42ed73a0c470acdd4267
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: pickup
@@ -1370,6 +1376,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ExampleWheelController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Grab
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1642,6 +1654,12 @@ ScriptsOnlyBuild:
     className: CameraMotionBlur
   - hash:
       serializedVersion: 2
+      Hash: e882ddf5658b9a424ec66f614c12a158
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: collected
+  - hash:
+      serializedVersion: 2
       Hash: d8fa56c444095472df2811298594dbb3
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityChan
@@ -1670,6 +1688,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityChan
     className: RandomWind
+  - hash:
+      serializedVersion: 2
+      Hash: ec82b073294c9296eaf8396b74659488
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Achievment
   - hash:
       serializedVersion: 2
       Hash: d791aa6007fa3640be1164ea75bb087d
