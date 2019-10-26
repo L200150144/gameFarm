@@ -13,6 +13,11 @@ ScriptsOnlyBuild:
     - function
     - mainmenu
     - vThirdPersonCamera
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -75,43 +80,43 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9646}
-    - Class: 114
-      Script: {instanceID: 9712}
-    - Class: 114
-      Script: {instanceID: 9714}
-    - Class: 114
-      Script: {instanceID: 9720}
-    - Class: 114
-      Script: {instanceID: 9726}
+      Script: {instanceID: 9668}
     - Class: 114
       Script: {instanceID: 9734}
     - Class: 114
+      Script: {instanceID: 9736}
+    - Class: 114
+      Script: {instanceID: 9742}
+    - Class: 114
+      Script: {instanceID: 9748}
+    - Class: 114
       Script: {instanceID: 9756}
     - Class: 114
-      Script: {instanceID: 9770}
+      Script: {instanceID: 9778}
     - Class: 114
-      Script: {instanceID: 9772}
+      Script: {instanceID: 9792}
     - Class: 114
-      Script: {instanceID: 9928}
+      Script: {instanceID: 9794}
     - Class: 114
-      Script: {instanceID: 10192}
+      Script: {instanceID: 9950}
     - Class: 114
-      Script: {instanceID: 10472}
+      Script: {instanceID: 10214}
     - Class: 114
-      Script: {instanceID: 10560}
+      Script: {instanceID: 10494}
     - Class: 114
-      Script: {instanceID: 10652}
+      Script: {instanceID: 10582}
     - Class: 114
-      Script: {instanceID: 10760}
+      Script: {instanceID: 10674}
     - Class: 114
-      Script: {instanceID: 10888}
+      Script: {instanceID: 10782}
     - Class: 114
-      Script: {instanceID: 11098}
+      Script: {instanceID: 10910}
     - Class: 114
-      Script: {instanceID: 11222}
+      Script: {instanceID: 11120}
     - Class: 114
-      Script: {instanceID: 11234}
+      Script: {instanceID: 11244}
+    - Class: 114
+      Script: {instanceID: 11256}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -163,6 +168,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 91
@@ -176,29 +185,37 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 886}
-    - Class: 114
-      Script: {instanceID: 9712}
-    - Class: 114
-      Script: {instanceID: 9714}
-    - Class: 114
-      Script: {instanceID: 9720}
-    - Class: 114
-      Script: {instanceID: 9726}
+      Script: {instanceID: 908}
     - Class: 114
       Script: {instanceID: 9734}
     - Class: 114
+      Script: {instanceID: 9736}
+    - Class: 114
+      Script: {instanceID: 9742}
+    - Class: 114
+      Script: {instanceID: 9748}
+    - Class: 114
       Script: {instanceID: 9756}
     - Class: 114
-      Script: {instanceID: 9770}
+      Script: {instanceID: 9778}
     - Class: 114
-      Script: {instanceID: 9772}
+      Script: {instanceID: 9792}
     - Class: 114
-      Script: {instanceID: 10192}
+      Script: {instanceID: 9794}
     - Class: 114
-      Script: {instanceID: 10472}
+      Script: {instanceID: 10188}
     - Class: 114
-      Script: {instanceID: 10572}
+      Script: {instanceID: 10214}
+    - Class: 114
+      Script: {instanceID: 10494}
+    - Class: 114
+      Script: {instanceID: 10594}
+    - Class: 114
+      Script: {instanceID: 10824}
+    - Class: 114
+      Script: {instanceID: 10836}
+    - Class: 114
+      Script: {instanceID: 11246}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1690,7 +1707,7 @@ ScriptsOnlyBuild:
     className: RandomWind
   - hash:
       serializedVersion: 2
-      Hash: ec82b073294c9296eaf8396b74659488
+      Hash: d1e463e9f9fcfd788ca97011dc4e3ca2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Achievment

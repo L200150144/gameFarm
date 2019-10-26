@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 344}
   m_MaxSize: {x: 4002, y: 8044}
   vertical: 1
-  controlID: 69
+  controlID: 145
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 494}
   m_MaxSize: {x: 10004, y: 14044}
   vertical: 1
-  controlID: 15
+  controlID: 58
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -177,7 +177,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 494}
   m_MaxSize: {x: 18008, y: 14044}
   vertical: 0
-  controlID: 14
+  controlID: 181
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -537,20 +537,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Invector-3rdPersonController/Basic Locomotion LITE/Resources
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Invector-3rdPersonController/Basic Locomotion LITE/Resources
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\NIP MEDIA\games farm
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 8}
-    m_SelectedIDs: f4450000
-    m_LastClickedID: 17908
-    m_ExpandedIDs: 00000000f02d0000402e0000982e0000f02e0000502f0000582f00005e2f0000f23000000e3100002e310000b2310000823200007a340000b034000058370000043800007a380000f43800000c390000c2390000103a0000f83c00004a3d0000143f0000463f0000ac400000c6400000104200001643000086450000f44500000646000082460000a6470000b2470000
+    m_SelectedIDs: ca2d0000
+    m_LastClickedID: 11722
+    m_ExpandedIDs: 00000000ca2d00001a2e0000722e0000ca2e00002a2f0000322f0000382f0000d0300000ec3000000e3100009431000066320000603400009834000046370000f237000068380000e4380000fc380000b2390000003a0000f43c0000463d0000183f00004a3f0000b2400000cc4000001e4200002443000098450000064600001846000098460000c0470000cc470000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -578,7 +578,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f02d0000402e0000982e0000f02e0000502f0000582f00005e2f0000f23000000e3100002e310000b2310000823200007a340000b034000058370000043800007a380000f43800000c390000c2390000f83c00004a3d0000143f0000463f0000ac400000c6400000104200001643000086450000f44500000646000082460000a6470000b2470000
+    m_ExpandedIDs: 00000000ca2d00001a2e0000722e0000ca2e00002a2f0000322f0000382f0000d0300000ec3000000e3100009431000066320000603400009834000046370000f237000068380000e4380000fc380000b2390000003a0000f43c0000463d0000183f00004a3f0000b2400000cc4000001e4200002443000098450000064600001846000098460000c0470000cc470000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -605,7 +605,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000030aa0200982e00003e710000a62e0000a02e0000b6450000462f0000f65000006a55000066550000d82f0000fe2d00008c2e0000ee35000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -630,7 +630,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 180}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 207
 --- !u!114 &18
@@ -698,9 +698,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ae480000
-      m_LastClickedID: 18606
-      m_ExpandedIDs: f2ebffff72fbffffa64800005a4900008a490000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 8efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -815,7 +815,7 @@ MonoBehaviour:
     m_DynamicClip: 1
     m_OcclusionCulling: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.19316088, y: -0.27765325, z: 0.05709529, w: -0.9393294}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
